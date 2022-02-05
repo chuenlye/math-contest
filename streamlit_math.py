@@ -23,7 +23,7 @@ def verify_all_questions(chapter):
         for x in f.readlines():
             st.latex(x)
 
-#verify_all_questions("4-03")
+#verify_all_questions("4-04")
 
 st.title(f"計算力コンテスト { chapter } :sunglasses:")
 st.write("----")
