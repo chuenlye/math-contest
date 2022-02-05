@@ -23,7 +23,7 @@ def verify_all_questions(chapter):
         for x in f.readlines():
             st.latex(x)
 
-#verify_all_questions("4-33")
+#verify_all_questions("4-03")
 
 st.title(f"計算力コンテスト { chapter } :sunglasses:")
 st.write("----")
@@ -62,6 +62,7 @@ with open("./data/math{}.latex".format(chapter)) as f1, open("./data/math{}-answ
                     st.header("🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕🍕")
                     st.header("🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀")
                     st.header("👍👍👍👍👍👍👏👏👏👏👏👏👏👏")
+                    st.stop()
         placeholder.empty()
     st.write("----")
     st.header(":cry: :cry: GAME OVER! :cry: :cry: まだね！ :sunglasses: :sunglasses:")
